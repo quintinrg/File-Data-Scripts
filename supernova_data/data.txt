@@ -1,0 +1,279 @@
+2001ah           |UGC 06211                     |11h10m30.35s|+55d10m11.4s|G     |  0.057763|   15.2g|SDSS DR13 2016
+V (Heliocentric)	17315 ± 49 km/s	2004SDSS2.C...0000:
+V (Kinematic LSR)	17321 ± 49 km/s	1986MNRAS.221.1023K
+V (Galactocentric GSR)	17382 ± 50 km/s	1991RC3.9.C...0000d
+V (Local Group)	17393 ± 50 km/s	1996AJ....111..794K
+V (3K CMB)	17488 ± 51 km/s	1996ApJ...473..576F
+V (Virgo Infall only)	17545 ± 51 km/s	2000ApJ...529..786M
+V (Virgo + GA only)	17542 ± 51 km/s	2000ApJ...529..786M
+V (Virgo + GA + Shapley)	17581 ± 51 km/s	2000ApJ...529..786M
+
+2001az           |UGC 10483                     |16h34m28.84s|+76d01m47.0s|G     |  0.040690|  15.36g|2001 z
+V (Heliocentric)	12200 ± N/A km/s	2001IAUC.7615B...1M
+V (Kinematic LSR)	12214 ± N/A km/s	1986MNRAS.221.1023K
+V (Galactocentric GSR)	12383 ± 7 km/s	  1991RC3.9.C...0000d
+V (Local Group)	12438 ± 14 km/s	 1996AJ....111..794K
+V (3K CMB)	12171 ± 2 km/s	 1996ApJ...473..576F
+V (Virgo Infall only)	12518 ± 15 km/s	 2000ApJ...529..786M
+V (Virgo + GA only)	12404 ± 17 km/s	 2000ApJ...529..786M
+V (Virgo + GA + Shapley)	12417 ± 17 km/s	 2000ApJ...529..786M
+
+2001da           |NGC 7780                      |23h53m32.17s|+08d07m05.3s|G     |  0.017381|    14.8|SSDSS DR13 2016
+V (Heliocentric)	5155 ± 58 km/s	1999ApJS..121..287H
+V (Kinematic LSR)	5157 ± 58 km/s	1986MNRAS.221.1023K
+V (Galactocentric GSR)	5289 ± 58 km/s	1991RC3.9.C...0000d
+V (Local Group)	5365 ± 59 km/s	1996AJ....111..794K
+V (3K CMB)	4790 ± 63 km/s	1996ApJ...473..576F
+V (Virgo Infall only)	5211 ± 60 km/s	2000ApJ...529..786M
+V (Virgo + GA only)	5094 ± 61 km/s	2000ApJ...529..786M
+V (Virgo + GA + Shapley)	5081 ± 61 km/s	2000ApJ...529..786M
+
+2001en           |NGC 0523                      |01h25m20.73s|+34d01m29.8s|G     |  0.015861|   12.3B|CFs 2 2013
+V (Heliocentric)	4758 ± 4 km/s	1998A&AS..130..333T
+V (Kinematic LSR)	4758 ± 4 km/s	1986MNRAS.221.1023K
+V (Galactocentric GSR)	4904 ± 7 km/s	1991RC3.9.C...0000d
+V (Local Group)	4987 ± 14 km/s	1996AJ....111..794K
+V (3K CMB)	4478 ± 20 km/s	1996ApJ...473..576F
+V (Virgo Infall only)	4888 ± 16 km/s	2000ApJ...529..786M
+V (Virgo + GA only)	4683 ± 21 km/s	2000ApJ...529..786M
+V (Virgo + GA + Shapley)	4661 ± 21 km/s	2000ApJ...529..786M
+
+2001fe           |UGC 05129                     |09h37m58.00s|+25d29m41.2s|G     |  0.013519|   14.0g|van Driel 2016
+V (Heliocentric)	4059 ± 6 km/s	1998A&AS..130..333T
+V (Kinematic LSR)	4054 ± 6 km/s	1986MNRAS.221.1023K
+V (Galactocentric GSR)	3995 ± 7 km/s	1991RC3.9.C...0000d
+V (Local Group)	3967 ± 8 km/s	1996AJ....111..794K
+V (3K CMB)	4344 ± 21 km/s	1996ApJ...473..576F
+V (Virgo Infall only)	4170 ± 16 km/s	2000ApJ...529..786M
+V (Virgo + GA only)	4393 ± 23 km/s	2000ApJ...529..786M
+V (Virgo + GA + Shapley)	4420 ± 23 km/s	2000ApJ...529..786M
+
+2001gb           |IC 0582                       |09h59m00.23s|+17d49m01.7s|G     |  0.025439|    14.7|SDSS DR13 2016
+V (Heliocentric)	7714 ± 33 km/s	1995ApJS..100...69F
+V (Kinematic LSR)	7709 ± 33 km/s	1986MNRAS.221.1023K
+V (Galactocentric GSR)	7624 ± 33 km/s	1991RC3.9.C...0000d
+V (Local Group)	7583 ± 34 km/s	1996AJ....111..794K
+V (3K CMB)	8033 ± 40 km/s	1996ApJ...473..576F
+V (Virgo Infall only)	7770 ± 36 km/s	2000ApJ...529..786M
+V (Virgo + GA only)	8041 ± 41 km/s	2000ApJ...529..786M
+V (Virgo + GA + Shapley)	8092 ± 41 km/s	2000ApJ...529..786M
+
+2001G            |MCG +08-17-043                |09h09m32.93s|+50d16m54.7s|G     |  0.016703|   15.8g|SDSS DR13 2016
+V (Heliocentric)	5028 ± 16 km/s	2004SDSS2.C...0000:
+V (Kinematic LSR)	5028 ± 16 km/s	1986MNRAS.221.1023K
+V (Galactocentric GSR)	5060 ± 17 km/s	1991RC3.9.C...0000d
+V (Local Group)	5072 ± 17 km/s	1996AJ....111..794K
+V (3K CMB)	5195 ± 20 km/s	1996ApJ...473..576F
+V (Virgo Infall only)	5225 ± 20 km/s	2000ApJ...529..786M
+V (Virgo + GA only)	5283 ± 20 km/s	2000ApJ...529..786M
+V (Virgo + GA + Shapley)	5305 ± 20 km/s	2000ApJ...529..786M
+
+2001ic           |NGC 7503                      |23h10m42.28s|+07d34m03.7s|G     |  0.044089|   14.3B|SDSS DR13 2016
+V (Heliocentric)	13262 ± 27 km/s	1999ApJS..121..287H
+V (Kinematic LSR)	13267 ± 27 km/s	1986MNRAS.221.1023K
+V (Galactocentric GSR)	13413 ± 28 km/s	1991RC3.9.C...0000d
+V (Local Group)	13488 ± 30 km/s	1996AJ....111..794K
+V (3K CMB)	12891 ± 37 km/s	1996ApJ...473..576F
+V (Virgo Infall only)	13325 ± 32 km/s	2000ApJ...529..786M
+V (Virgo + GA only)	13154 ± 34 km/s	2000ApJ...529..786M
+V (Virgo + GA + Shapley)	13133 ± 34 km/s	2000ApJ...529..786M
+
+2001V            |NGC 3987                      |11h57m20.92s|+25d11m43.4s|G     |  0.014511|   12.9B|Moffett 2015
+V (Heliocentric)	4502 ± 5 km/s	1993ApJ...419...30C
+V (Kinematic LSR)	4506 ± 5 km/s	1986MNRAS.221.1023K
+V (Galactocentric GSR)	4477 ± 5 km/s	1991RC3.9.C...0000d
+V (Local Group)	4441 ± 6 km/s	1996AJ....111..794K
+V (3K CMB)	4810 ± 22 km/s	1996ApJ...473..576F
+V (Virgo Infall only)	4689 ± 18 km/s	2000ApJ...529..786M
+V (Virgo + GA only)	5016 ± 29 km/s	2000ApJ...529..786M
+V (Virgo + GA + Shapley)	5045 ± 29 km/s	2000ApJ...529..786M
+
+2002bf           |CGCG 266-031                  |10h15m42.25s|+55d40m02.9s|G     |  0.024376|   14.3g|SDSS DR13 2016
+V (Heliocentric)	7254 ± 32 km/s	1999PASP..111..438F
+V (Kinematic LSR)	7258 ± 32 km/s	1986MNRAS.221.1023K
+V (Galactocentric GSR)	7314 ± 32 km/s	1991RC3.9.C...0000d
+V (Local Group)	7328 ± 32 km/s	1996AJ....111..794K
+V (3K CMB)	7418 ± 34 km/s	1996ApJ...473..576F
+V (Virgo Infall only)	7483 ± 34 km/s	2000ApJ...529..786M
+V (Virgo + GA only)	7525 ± 34 km/s	2000ApJ...529..786M
+V (Virgo + GA + Shapley)	7555 ± 34 km/s	2000ApJ...529..786M
+
+2002bz           |CGCG 163-041                  |14h24m40.53s|+26d37m30.6s|G     |  0.037128|   14.9g|SDSS DR13 2016
+V (Heliocentric)	11138 ± 20 km/s	2002AJ....123.3018M
+V (Kinematic LSR)	11151 ± 20 km/s	1986MNRAS.221.1023K
+V (Galactocentric GSR)	11196 ± 20 km/s	1991RC3.9.C...0000d
+V (Local Group)	11180 ± 20 km/s	1996AJ....111..794K
+V (3K CMB)	11337 ± 24 km/s	1996ApJ...473..576F
+V (Virgo Infall only)	11371 ± 24 km/s	2000ApJ...529..786M
+V (Virgo + GA only)	11641 ± 31 km/s	2000ApJ...529..786M
+V (Virgo + GA + Shapley)	11719 ± 31 km/s	2000ApJ...529..786M
+
+2002ck           |UGC 10030                     |15h47m00.42s|-00d59m06.5s|G     |  0.029742|   15.03|SDSS DR13 2016
+V (Heliocentric)	8953 ± 7 km/s	1998A&AS..130..333T
+V (Kinematic LSR)	8967 ± 7 km/s	1986MNRAS.221.1023K
+V (Galactocentric GSR)	8985 ± 7 km/s	1991RC3.9.C...0000d
+V (Local Group)	8954 ± 7 km/s	1996AJ....111..794K
+V (3K CMB)	9087 ± 12 km/s	1996ApJ...473..576F
+V (Virgo Infall only)	9104 ± 13 km/s	2000ApJ...529..786M
+V (Virgo + GA only)	9548 ± 34 km/s	2000ApJ...529..786M
+V (Virgo + GA + Shapley)	9606 ± 34 km/s	2000ApJ...529..786M
+
+2002cr           |NGC 5468                      |14h06m34.89s|-05d27m11.2s|G     |  0.009480|   12.7B|2004 z
+V (Heliocentric)	2842 ± 4 km/s	2004AJ....128...16K
+V (Kinematic LSR)	2850 ± 4 km/s	1986MNRAS.221.1023K
+V (Galactocentric GSR)	2793 ± 4 km/s	1991RC3.9.C...0000d
+V (Local Group)	2734 ± 8 km/s	1996AJ....111..794K
+V (3K CMB)	3112 ± 19 km/s	1996ApJ...473..576F
+V (Virgo Infall only)	3003 ± 20 km/s	2000ApJ...529..786M
+V (Virgo + GA only)	3232 ± 26 km/s	2000ApJ...529..786M
+V (Virgo + GA + Shapley)	3220 ± 26 km/s	2000ApJ...529..786M
+
+2002de           |NGC 6104                      |16h16m30.69s|+35d42m29.0s|G     |  0.027894|   14.2g|SDSS DR13 2016
+V (Heliocentric)	8429 ± 30 km/s	2002AJ....124.1266R
+V (Kinematic LSR)	8447 ± 30 km/s	1986MNRAS.221.1023K
+V (Galactocentric GSR)	8573 ± 31 km/s	1991RC3.9.C...0000d
+V (Local Group)	8591 ± 32 km/s	1996AJ....111..794K
+V (3K CMB)	8474 ± 30 km/s	1996ApJ...473..576F
+V (Virgo Infall only)	8728 ± 33 km/s	2000ApJ...529..786M
+V (Virgo + GA only)	8895 ± 35 km/s	2000ApJ...529..786M
+V (Virgo + GA + Shapley)	8946 ± 35 km/s	2000ApJ...529..786M
+
+2002dj           |NGC 5018                      |13h13m01.03s|-19d31m05.5s|G     |  0.009483|   11.2B|CFs2 2013
+V (Heliocentric)	2816 ± 1 km/s	2006AJ....131..185R
+V (Kinematic LSR)	2818 ± 1 km/s	1986MNRAS.221.1023K
+V (Galactocentric GSR)	2695 ± 5 km/s	1991RC3.9.C...0000d
+V (Local Group)	2617 ± 12 km/s	1996AJ....111..794K
+V (3K CMB)	3131 ± 22 km/s	1996ApJ...473..576F
+V (Virgo Infall only)	2880 ± 22 km/s	2000ApJ...529..786M
+V (Virgo + GA only)	2825 ± 22 km/s	2000ApJ...529..786M
+V (Virgo + GA + Shapley)	2805 ± 22 km/s	2000ApJ...529..786M
+
+2002dp           |NGC 7678                      |23h28m27.90s|+22d25m16.3s|G     |  0.011690|   12.41|SDSS DR13 2016
+V (Heliocentric)	3489 ± 5 km/s	1993ApJ...419...30C
+V (Kinematic LSR)	3495 ± 5 km/s	1986MNRAS.221.1023K
+V (Galactocentric GSR)	3668 ± 9 km/s	1991RC3.9.C...0000d
+V (Local Group)	3754 ± 17 km/s	1996AJ....111..794K
+V (3K CMB)	3133 ± 25 km/s	1996ApJ...473..576F
+V (Virgo Infall only)	3639 ± 19 km/s	2000ApJ...529..786M
+V (Virgo + GA only)	3516 ± 20 km/s	2000ApJ...529..786M
+V (Virgo + GA + Shapley)	3505 ± 20 km/s	2000ApJ...529..786M
+
+2002eu           |2MASX J01494273+3237303       |01h49m42.72s|+32d37m30.6s|G     |  0.037626|   16.30|2000 z
+V (Heliocentric)	11280 ± 100 km/s	2000AJ....119.2757V
+V (Kinematic LSR)	11279 ± 100 km/s	1986MNRAS.221.1023K
+V (Galactocentric GSR)	11410 ± 100 km/s	1991RC3.9.C...0000d
+V (Local Group)	11490 ± 101 km/s	1996AJ....111..794K
+V (3K CMB)	11016 ± 102 km/s	1996ApJ...473..576F
+V (Virgo Infall only)	11374 ± 101 km/s	2000ApJ...529..786M
+V (Virgo + GA only)	11095 ± 103 km/s	2000ApJ...529..786M
+V (Virgo + GA + Shapley)	11057 ± 103 km/s	2000ApJ...529..786M
+
+2002fk           |NGC 1309                      |03h22m06.56s|-15d24m00.2s|G     |  0.007125|   11.7B|2004 z
+V (Heliocentric)	2136 ± 4 km/s	2004AJ....128...16K
+V (Kinematic LSR)	2121 ± 4 km/s	1986MNRAS.221.1023K
+V (Galactocentric GSR)	2073 ± 5 km/s	1991RC3.9.C...0000d
+V (Local Group)	2091 ± 5 km/s	1996AJ....111..794K
+V (3K CMB)	1984 ± 11 km/s	1996ApJ...473..576F
+V (Virgo Infall only)	2007 ± 8 km/s	2000ApJ...529..786M
+V (Virgo + GA only)	2061 ± 8 km/s	2000ApJ...529..786M
+V (Virgo + GA + Shapley)	2063 ± 8 km/s	2000ApJ...529..786M
+
+2002G            |CGCG 189-024                  |13h07m54.81s|+34d05m13.6s|G     |  0.033650|   14.8g|SDSS DR13 2016
+V (Heliocentric)	10114 ± 27 km/s	1995ApJS...99..391H
+V (Kinematic LSR)	10124 ± 27 km/s	1986MNRAS.221.1023K
+V (Galactocentric GSR)	10152 ± 27 km/s	1991RC3.9.C...0000d
+V (Local Group)	10135 ± 27 km/s	1996AJ....111..794K
+V (3K CMB)	10356 ± 32 km/s	1996ApJ...473..576F
+V (Virgo Infall only)	10339 ± 31 km/s	2000ApJ...529..786M
+V (Virgo + GA only)	10573 ± 35 km/s	2000ApJ...529..786M
+V (Virgo + GA + Shapley)	10641 ± 35 km/s	2000ApJ...529..786M
+
+2002ha           |NGC 6962                      |20h47m19.06s|+00d19m14.9s|G     |  0.013893|   13.3g|van den Bosch 2015
+V (Heliocentric)	4200 ± 21 km/s	2014ApJ...789..112C
+V (Kinematic LSR)	4213 ± 21 km/s	1986MNRAS.221.1023K
+V (Galactocentric GSR)	4357 ± 22 km/s	1991RC3.9.C...0000d
+V (Local Group)	4409 ± 24 km/s	1996AJ....111..794K
+V (3K CMB)	3903 ± 30 km/s	1996ApJ...473..576F
+V (Virgo Infall only)	4338 ± 25 km/s	2000ApJ...529..786M
+V (Virgo + GA only)	4433 ± 26 km/s	2000ApJ...529..786M
+V (Virgo + GA + Shapley)	4450 ± 26 km/s	2000ApJ...529..786M
+
+2002he           |UGC 04322                     |08h20m01.74s|+62d49m50.1s|G     |  0.024564|   14.70|1999 z
+V (Heliocentric)	7364 ± 24 km/s	1999PASP..111..438F
+V (Kinematic LSR)	7366 ± 24 km/s	1986MNRAS.221.1023K
+V (Galactocentric GSR)	7447 ± 24 km/s	1991RC3.9.C...0000d
+V (Local Group)	7480 ± 25 km/s	1996AJ....111..794K
+V (3K CMB)	7447 ± 25 km/s	1996ApJ...473..576F
+V (Virgo Infall only)	7586 ± 26 km/s	2000ApJ...529..786M
+V (Virgo + GA only)	7524 ± 26 km/s	2000ApJ...529..786M
+V (Virgo + GA + Shapley)	7538 ± 26 km/s	2000ApJ...529..786M
+
+2002kf           |CGCG 233-023                  |06h37m16.72s|+49d50m59.6s|G     |  0.019300|    15.6|2003 z
+V (Heliocentric)	5786 ± N/A km/s	2003IAUC.8041B...1M
+V (Kinematic LSR)	5783 ± N/A km/s	1986MNRAS.221.1023K
+V (Galactocentric GSR)	5835 ± 2 km/s	1991RC3.9.C...0000d
+V (Local Group)	5869 ± 5 km/s	1996AJ....111..794K
+V (3K CMB)	5838 ± 4 km/s	1996ApJ...473..576F
+V (Virgo Infall only)	5938 ± 7 km/s	2000ApJ...529..786M
+V (Virgo + GA only)	5863 ± 9 km/s	2000ApJ...529..786M
+V (Virgo + GA + Shapley)	5867 ± 9 km/s	2000ApJ...529..786M
+
+2003ae           |2MASX J09282257+2726402       |09h28m22.59s|+27d26m40.8s|G     |  0.032750|   17.7g|SDSS DR13 2016
+V (Heliocentric)	9850 ± 25 km/s	2006SDSS5.C...0000:
+V (Kinematic LSR)	9845 ± 25 km/s	1986MNRAS.221.1023K
+V (Galactocentric GSR)	9793 ± 25 km/s	1991RC3.9.C...0000d
+V (Local Group)	9769 ± 25 km/s	1996AJ....111..794K
+V (3K CMB)	10123 ± 31 km/s	1996ApJ...473..576F
+V (Virgo Infall only)	9931 ± 28 km/s	2000ApJ...529..786M
+V (Virgo + GA only)	10082 ± 30 km/s	2000ApJ...529..786M
+V (Virgo + GA + Shapley)	10132 ± 30 km/s	2000ApJ...529..786M
+
+2003ch           |UGC 03787                     |07h17m57.56s|+09d41m21.6s|G     |  0.028620|   15.6P|2012 z
+V (Heliocentric)	8580 ± 36 km/s	2012ApJS..199...26H
+V (Kinematic LSR)	8566 ± 36 km/s	1986MNRAS.221.1023K
+V (Galactocentric GSR)	8469 ± 36 km/s	1991RC3.9.C...0000d
+V (Local Group)	8449 ± 37 km/s	1996AJ....111..794K
+V (3K CMB)	8762 ± 38 km/s	1996ApJ...473..576F
+V (Virgo Infall only)	8518 ± 37 km/s	2000ApJ...529..786M
+V (Virgo + GA only)	8622 ± 38 km/s	2000ApJ...529..786M
+V (Virgo + GA + Shapley)	8652 ± 38 km/s	2000ApJ...529..786M
+
+2003cq           |NGC 3978                      |11h56m10.32s|+60d31m21.1s|G     |  0.033176|   13.4g|SDSS DR13 2016 low err
+V (Heliocentric)	9978 ± 33 km/s	1983ApJS...52...89H
+V (Kinematic LSR)	9986 ± 33 km/s	1986MNRAS.221.1023K
+V (Galactocentric GSR)	10074 ± 33 km/s	1991RC3.9.C...0000d
+V (Local Group)	10094 ± 34 km/s	1996AJ....111..794K
+V (3K CMB)	10117 ± 34 km/s	1996ApJ...473..576F
+V (Virgo Infall only)	10246 ± 35 km/s	2000ApJ...529..786M
+V (Virgo + GA only)	10269 ± 35 km/s	2000ApJ...529..786M
+V (Virgo + GA + Shapley)	10305 ± 35 km/s	2000ApJ...529..786M
+
+2003du           |UGC 09391                     |14h34m37.02s|+59d20m16.1s|G     |  0.006352|   14.6B|SDSS DR13 2016 low err
+V (Heliocentric)	1914 ± 4 km/s	1992ApJS...81....5S
+V (Kinematic LSR)	1928 ± 4 km/s	1986MNRAS.221.1023K
+V (Galactocentric GSR)	2055 ± 7 km/s	1991RC3.9.C...0000d
+V (Local Group)	2083 ± 11 km/s	1996AJ....111..794K
+V (3K CMB)	1994 ± 7 km/s	1996ApJ...473..576F
+V (Virgo Infall only)	2307 ± 19 km/s	2000ApJ...529..786M
+V (Virgo + GA only)	2408 ± 20 km/s	2000ApJ...529..786M
+V (Virgo + GA + Shapley)	2422 ± 20 km/s	2000ApJ...529..786M
+
+2003fa           |ARK 527                       |17h44m08.60s|+40d52m02.3s|G     |  0.040388|   15.20|2003 z, not 0.006, bit far out
+V (Heliocentric)	12108 ± 35 km/s	2003IAUC.8146B...1M
+V (Kinematic LSR)	12128 ± 35 km/s	1986MNRAS.221.1023K
+V (Galactocentric GSR)	12300 ± 36 km/s	1991RC3.9.C...0000d
+V (Local Group)	12343 ± 38 km/s	1996AJ....111..794K
+V (3K CMB)	12040 ± 35 km/s	1996ApJ...473..576F
+V (Virgo Infall only)	12417 ± 38 km/s	2000ApJ...529..786M
+V (Virgo + GA only)	12443 ± 38 km/s	2000ApJ...529..786M
+V (Virgo + GA + Shapley)	12482 ± 38 km/s	2000ApJ...529..786M
+
+2003hu           |2MASX J19113272+7753382       |19h11m32.79s|+77d53m38.3s|G     |  0.075000|  15.96g|2003 z
+V (Heliocentric)	22484 ± N/A km/s	2003IAUC.8201A...1S
+V (Kinematic LSR)	22498 ± N/A km/s	1986MNRAS.221.1023K
+V (Galactocentric GSR)	22682 ± 8 km/s	1991RC3.9.C...0000d
+V (Local Group)	22748 ± 16 km/s	1996AJ....111..794K
+V (3K CMB)	22402 ± 6 km/s	1996ApJ...473..576F
+V (Virgo Infall only)	22791 ± 16 km/s	2000ApJ...529..786M
+V (Virgo + GA only)	22588 ± 21 km/s	2000ApJ...529..786M
+V (Virgo + GA + Shapley)	22580 ± 21 km/s	2000ApJ...529..786M
