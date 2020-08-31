@@ -1,4 +1,4 @@
-c#This script reads any files in the same directory ending in .out, checks for the pattern phrase, and returns a list of files containing those.
+#This script reads any files in the same directory ending in .out, checks for the pattern phrase, and returns a list of files containing those.
 
 #Creating a list with all outputs files
 list_of_files = []
