@@ -1,10 +1,14 @@
-#This script reads any files in the same directory ending in '.out', checks for the pattern phrase, and returns a list of files containing the phrase.
+#This script reads any files in the same directory ending with the given suffix, checks for the pattern phrase, and returns a list of files containing the phrase.
+
+file_type = ".out" #Change to .txt, etc
+pattern = "pineapple"
+exempt_phrase = "pizza" #Files containing both this exempt phrase and the main phrase, will be not be considered secret files
 
 #Creates a list and appends files to check
 list_of_files = []
 import os
 for filename in os.listdir():
-  if filename.endswith('.out'):
+  if filename.endswith(file_type):
     list_of_files.append(filename)
 
 #Function to diferenciate lists
@@ -12,7 +16,6 @@ def divide_lists(list1,list2):
   return list(set(list1) - set(list2))
 
 secret_files_list = []
-pattern = "pineapple"
 
 #Appends each filename into secret_files_list
 for each_file in list_of_files:
@@ -22,19 +25,11 @@ for each_file in list_of_files:
         secret_files_list.append(current_file.name)
 
 #Creates a list of negative files and writes it to negative_files.txt
-negative_files = divide_lists(list_of_files, secret_files_list)
-file = open("negative_files.txt", "w")
-file.write('No secrets contained in:\n')
-file.write(str(negative_files))
-file.close()
-
+# negative_files = divide_lists(list_of_files, secret_files_list) Redundant? Testing needed
 #Removes duplicate list items
-final_secret_list = list(dict.fromkeys(secret_files_list))
+# final_secret_list = list(dict.fromkeys(secret_files_list)) #Redundant? Testing needed
 
-
-#Additional filter, files containing the secret phrase and exempt phrase will not be considered secret.
-
-exempt_phrase = "pizza" #Filter phrase
+#Exempting filter
 def optional_filter(secondary_phrase):
   exempt_list= []
   final_secret_list = []
@@ -47,6 +42,18 @@ def optional_filter(secondary_phrase):
   return(final_secret_list)
 
 final_secret_list = optional_filter(exempt_phrase) #Assigns return of function to final_secret_list, to override the unfiltered variable
+
+reject_files = []
+for file in list_of_files:
+  if file not in final_secret_list:
+    reject_files.append(file)
+print(reject_files)
+
+#Writes rejected list to file
+file = open("reject_files.txt", "w")
+file.write('No secrets contained in:\n')
+file.write(str(reject_files))
+file.close()
 
 #Writes the list of files containing the secret word into secret_files.txt
 file = open("secret_files.txt", "w")
