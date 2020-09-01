@@ -1,59 +1,54 @@
 #This script reads any files in the same directory ending in '.out', checks for the pattern phrase, and returns a list of files containing the phrase.
 
-#Creating a list with all outputs files
+#Creates a list with all files to check
 list_of_files = []
 import os
 for filename in os.listdir():
   if filename.endswith('.out'):
     list_of_files.append(filename)
 
-#Defining a function to diferenciate lists
-def differentiate_lists(list1,list2):
+#Function to diferenciate lists
+def divide_lists(list1,list2):
   return list(set(list1) - set(list2))
 
-###Verification of normal termination
 secret_files_list = []
 pattern = "pinapple"
 
-
-#Appending each filename into secret_files_list
+#Appends each filename into secret_files_list
 for each_file in list_of_files:
   with open(each_file) as current_file:
     for line in current_file:
       if pattern in line:
         secret_files_list.append(current_file.name)
 
-#creating a list of fail calculations and saving on a txt file
-negative_files = differentiate_lists(list_of_files, secret_files_list)
+#Creates a list of negative files and writes it to negative_files.txt
+negative_files = divide_lists(list_of_files, secret_files_list)
 file = open("negative_files.txt", "w")
 file.write('No secrets contained in:\n')
 file.write(str(negative_files))
 file.close()
 
-###Looking for imaginary modes on the files that terminated normally
-imaginary_pattern="***imaginary mode***"
-imaginary_list=[]
+#Removes duplicate list items
+final_secret_list = list(dict.fromkeys(secret_files_list))
 
-for each_file in secret_files_list:
-  with open(each_file) as current_file:
-    for line in current_file:
-      if imaginary_pattern in line:
-        imaginary_list.append(current_file.name)
-                
-imaginary_list=list(dict.fromkeys(imaginary_list))   #removing duplicated itens on the list
 
-#Creating negative_files.txt, and writing list of .out files not containing the secret word
-# file = open("negative_files.txt", "w")
-# file.write('\nThese files do not contain the secret word:\n')
-# file.write(str(imaginary_list))
-# file.close()
+#Additional filter, files containing the secret phrase and exempt phrase will not be considered secret.
 
-#Creating a list with files that terminated normally and has only real frequencies
-real_frequencies_list=differentiate_lists(secret_files_list,imaginary_list)
+exempt_phrase = "pizza" #Filter phrase
+def optional_filter(secondary_phrase):
+  exempt_list=[]
+  for each_file in secret_files_list:
+    with open(each_file) as current_file:
+      for line in current_file:
+        if exempt_phrase in line:
+          exempt_list.append(current_file.name)
+        final_secret_list = divide_lists(secret_files_list, exempt_list) 
+  return(final_secret_list)
 
-#Adding the list of files containing the secret word into secret_files.txt
+final_secret_list = optional_filter(exempt_phrase) #Assigns return of function to final_secret_list, to override the unfiltered variable
+
+#Writes the list of files containing the secret word into secret_files.txt
 file = open("secret_files.txt", "w")
-file.write("These files terminated normally and contain the secret word:\n")
-file.write(str(real_frequencies_list))
+file.write("These file contain the secret phrase:\n")
+file.write(str(final_secret_list))
 file.close()
-print(secret_files_list)
