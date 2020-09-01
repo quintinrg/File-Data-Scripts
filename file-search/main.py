@@ -1,56 +1,59 @@
-#This script reads any files in the same directory ending in .out, checks for the pattern phrase, and returns a list of files containing those.
+#This script reads any files in the same directory ending in '.out', checks for the pattern phrase, and returns a list of files containing the phrase.
 
 #Creating a list with all outputs files
 list_of_files = []
 import os
 for filename in os.listdir():
-    if filename.endswith('.out'):
-         list_of_files.append(filename)
+  if filename.endswith('.out'):
+    list_of_files.append(filename)
 
 #Defining a function to diferenciate lists
-def diferenciate_lists(list1,list2):
-    return list(set(list1) - set(list2))
+def differentiate_lists(list1,list2):
+  return list(set(list1) - set(list2))
 
 ###Verification of normal termination
-normal_termination_list = []
-pattern = "ORCA TERMINATED NORMALLY"
+secret_files_list = []
+pattern = "pinapple"
 
-#creating a list from the "list_of_files" that terminated normally
+
+#Appending each filename into secret_files_list
 for each_file in list_of_files:
-    with open(each_file) as current_file:
-        for line in current_file:
-            if pattern in line:
-                normal_termination_list.append(current_file.name)
+  with open(each_file) as current_file:
+    for line in current_file:
+      if pattern in line:
+        secret_files_list.append(current_file.name)
 
 #creating a list of fail calculations and saving on a txt file
-fail_termination_list= diferenciate_lists(list_of_files,normal_termination_list)
-file = open("fail.txt", "a")
-file.write('Failed the calculation:\n')
-file.write(str(fail_termination_list))
+negative_files = differentiate_lists(list_of_files, secret_files_list)
+file = open("negative_files.txt", "w")
+file.write('No secrets contained in:\n')
+file.write(str(negative_files))
 file.close()
 
 ###Looking for imaginary modes on the files that terminated normally
 imaginary_pattern="***imaginary mode***"
 imaginary_list=[]
 
-for each_file in normal_termination_list:
-    with open(each_file) as current_file:
-        for line in current_file:
-            if imaginary_pattern in line:
-                imaginary_list.append(current_file.name)
+for each_file in secret_files_list:
+  with open(each_file) as current_file:
+    for line in current_file:
+      if imaginary_pattern in line:
+        imaginary_list.append(current_file.name)
+                
 imaginary_list=list(dict.fromkeys(imaginary_list))   #removing duplicated itens on the list
 
-#adding the files with imaginary frequency on the fail.txt
-file = open("fail.txt", "a")
-file.write('\nFiles with imaginary frequencies:\n')
-file.write(str(imaginary_list))
-file.close()
+#Creating negative_files.txt, and writing list of .out files not containing the secret word
+# file = open("negative_files.txt", "w")
+# file.write('\nThese files do not contain the secret word:\n')
+# file.write(str(imaginary_list))
+# file.close()
 
-#creating a list with files that terminated normally and has only real frequencies
-real_frequencies_list=diferenciate_lists(normal_termination_list,imaginary_list)
+#Creating a list with files that terminated normally and has only real frequencies
+real_frequencies_list=differentiate_lists(secret_files_list,imaginary_list)
 
-#adding the real frequency files on txt file
-file = open("normal_files.txt", "a")
-file.write("This files terminated normally and has only real frequencies:\n")
+#Adding the list of files containing the secret word into secret_files.txt
+file = open("secret_files.txt", "w")
+file.write("These files terminated normally and contain the secret word:\n")
 file.write(str(real_frequencies_list))
 file.close()
+print(secret_files_list)
