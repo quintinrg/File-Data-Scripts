@@ -1,6 +1,6 @@
 #This script reads any files in the same directory ending in '.out', checks for the pattern phrase, and returns a list of files containing the phrase.
 
-#Creates a list with all files to check
+#Creates a list and appends files to check
 list_of_files = []
 import os
 for filename in os.listdir():
@@ -12,7 +12,7 @@ def divide_lists(list1,list2):
   return list(set(list1) - set(list2))
 
 secret_files_list = []
-pattern = "pinapple"
+pattern = "pineapple"
 
 #Appends each filename into secret_files_list
 for each_file in list_of_files:
@@ -36,7 +36,8 @@ final_secret_list = list(dict.fromkeys(secret_files_list))
 
 exempt_phrase = "pizza" #Filter phrase
 def optional_filter(secondary_phrase):
-  exempt_list=[]
+  exempt_list= []
+  final_secret_list = []
   for each_file in secret_files_list:
     with open(each_file) as current_file:
       for line in current_file:
