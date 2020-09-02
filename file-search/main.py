@@ -47,7 +47,6 @@ reject_files = []
 for file in list_of_files:
   if file not in final_secret_list:
     reject_files.append(file)
-print(reject_files)
 
 #Writes rejected list to file
 file = open("reject_files.txt", "w")
